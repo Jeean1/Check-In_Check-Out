@@ -7,7 +7,7 @@ const dataBase = new Sequelize({
   password: "j2080",
   port: 5432,
   database: "check-IN-check-Out",
-  logging: false
+  logging: false,
 });
 
 module.exports = { dataBase, DataTypes };
